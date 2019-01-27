@@ -33,7 +33,7 @@ pipreqs ./server
 
 #### To deploy image to Azure Container Service
 
-TBD
+* Follow this [tutorial](https://blog.akquinet.de/2018/06/13/how-to-deploy-a-dockerized-app-to-microsoft-azure-web-app-for-containers/)
 
 ### Endpoints
 

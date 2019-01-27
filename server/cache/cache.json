@@ -3,11 +3,13 @@
     "data": {
         "sha-256": {
             "imgHREF": "/some/path",
-            "videoHREF": "/some/other/path"
+            "videoHREF": "/some/other/path",
+            "tag": ""
         },
         "another-sha-256": {
             "imgHREF": "/some/path",
-            "videoHREF": "/some/other/path"
+            "videoHREF": "/some/other/path",
+            "tag": ""
         }
     }
 }

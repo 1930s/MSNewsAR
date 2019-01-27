@@ -8,26 +8,84 @@
 
 /* Begin PBXBuildFile section */
 		0BF3A2B821FD47B900F70CE0 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2B621FD47B800F70CE0 /* test.mp4 */; };
-		0BF3A2B921FD47B900F70CE0 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */; };
+		0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2FB21FDE32700F70CE0 /* art.scnassets */; };
+		0BF3A30121FDEFAE00F70CE0 /* WebsiteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3A30021FDEFAE00F70CE0 /* WebsiteData.swift */; };
+		0BF3A30521FDF97F00F70CE0 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3A30421FDF97F00F70CE0 /* YTPlayerView.m */; };
+		0BF3A30721FDFA3300F70CE0 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30621FDFA3300F70CE0 /* Assets */; };
+		0BF3A30B21FE0F6C00F70CE0 /* salad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30A21FE0F6C00F70CE0 /* salad.mp4 */; };
+		0BF3A32121FE248900F70CE0 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30C21FE246E00F70CE0 /* video4.mp4 */; };
+		0BF3A32221FE248900F70CE0 /* video10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30D21FE246E00F70CE0 /* video10.mp4 */; };
+		0BF3A32321FE248900F70CE0 /* video7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30E21FE246E00F70CE0 /* video7.mp4 */; };
+		0BF3A32421FE248900F70CE0 /* video9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30F21FE247100F70CE0 /* video9.mp4 */; };
+		0BF3A32521FE248900F70CE0 /* video8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31021FE247200F70CE0 /* video8.mp4 */; };
+		0BF3A32621FE248900F70CE0 /* video13.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31121FE247400F70CE0 /* video13.mp4 */; };
+		0BF3A32721FE248900F70CE0 /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31221FE247500F70CE0 /* video5.mp4 */; };
+		0BF3A32821FE248900F70CE0 /* video19.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31321FE247600F70CE0 /* video19.mp4 */; };
+		0BF3A32921FE248900F70CE0 /* video20.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31421FE247600F70CE0 /* video20.mp4 */; };
+		0BF3A32A21FE248900F70CE0 /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31521FE247700F70CE0 /* video6.mp4 */; };
+		0BF3A32B21FE248900F70CE0 /* video15.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31621FE247B00F70CE0 /* video15.mp4 */; };
+		0BF3A32C21FE248900F70CE0 /* video14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31721FE247C00F70CE0 /* video14.mp4 */; };
+		0BF3A32D21FE248900F70CE0 /* video16.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31821FE247F00F70CE0 /* video16.mp4 */; };
+		0BF3A32E21FE248900F70CE0 /* video17.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31921FE248200F70CE0 /* video17.mp4 */; };
+		0BF3A32F21FE248900F70CE0 /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31A21FE248300F70CE0 /* video2.mp4 */; };
+		0BF3A33021FE248900F70CE0 /* video21.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31B21FE248400F70CE0 /* video21.mp4 */; };
+		0BF3A33121FE248900F70CE0 /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31C21FE248600F70CE0 /* video1.mp4 */; };
+		0BF3A33221FE248900F70CE0 /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31D21FE248700F70CE0 /* video3.mp4 */; };
+		0BF3A33321FE248900F70CE0 /* video18.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31E21FE248800F70CE0 /* video18.mp4 */; };
+		0BF3A33421FE248900F70CE0 /* video12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A31F21FE248800F70CE0 /* video12.mp4 */; };
+		0BF3A33521FE248900F70CE0 /* video11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A32021FE248900F70CE0 /* video11.mp4 */; };
+		0BF3A33721FE35A600F70CE0 /* video22.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A33621FE35A600F70CE0 /* video22.mp4 */; };
+		0BF3A33921FE38C700F70CE0 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A33821FE38C700F70CE0 /* harrypotter.mp4 */; };
 		7C34A85D21FD18C2004BEA5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */; };
-		7C34A85F21FD18C2004BEA5E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A85E21FD18C2004BEA5E /* art.scnassets */; };
 		7C34A86121FD18C2004BEA5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34A86021FD18C2004BEA5E /* ViewController.swift */; };
 		7C34A86421FD18C2004BEA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A86221FD18C2004BEA5E /* Main.storyboard */; };
 		7C34A86621FD18C4004BEA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A86521FD18C4004BEA5E /* Assets.xcassets */; };
 		7C34A86921FD18C4004BEA5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A86721FD18C4004BEA5E /* LaunchScreen.storyboard */; };
+		7DD7AD0CC61F85588C6FAA77 /* Pods_NewsAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B5701DB67595D07059B25C /* Pods_NewsAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B5701DB67595D07059B25C /* Pods_NewsAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF3A2B621FD47B800F70CE0 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
-		0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
+		0BF3A2FB21FDE32700F70CE0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		0BF3A30021FDEFAE00F70CE0 /* WebsiteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteData.swift; sourceTree = "<group>"; };
+		0BF3A30221FDF97E00F70CE0 /* NewsAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsAR-Bridging-Header.h"; sourceTree = "<group>"; };
+		0BF3A30321FDF97F00F70CE0 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
+		0BF3A30421FDF97F00F70CE0 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
+		0BF3A30621FDFA3300F70CE0 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Assets; sourceTree = "<group>"; };
+		0BF3A30A21FE0F6C00F70CE0 /* salad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = salad.mp4; sourceTree = "<group>"; };
+		0BF3A30C21FE246E00F70CE0 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		0BF3A30D21FE246E00F70CE0 /* video10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video10.mp4; sourceTree = "<group>"; };
+		0BF3A30E21FE246E00F70CE0 /* video7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video7.mp4; sourceTree = "<group>"; };
+		0BF3A30F21FE247100F70CE0 /* video9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video9.mp4; sourceTree = "<group>"; };
+		0BF3A31021FE247200F70CE0 /* video8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video8.mp4; sourceTree = "<group>"; };
+		0BF3A31121FE247400F70CE0 /* video13.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video13.mp4; sourceTree = "<group>"; };
+		0BF3A31221FE247500F70CE0 /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		0BF3A31321FE247600F70CE0 /* video19.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video19.mp4; sourceTree = "<group>"; };
+		0BF3A31421FE247600F70CE0 /* video20.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video20.mp4; sourceTree = "<group>"; };
+		0BF3A31521FE247700F70CE0 /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		0BF3A31621FE247B00F70CE0 /* video15.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video15.mp4; sourceTree = "<group>"; };
+		0BF3A31721FE247C00F70CE0 /* video14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video14.mp4; sourceTree = "<group>"; };
+		0BF3A31821FE247F00F70CE0 /* video16.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video16.mp4; sourceTree = "<group>"; };
+		0BF3A31921FE248200F70CE0 /* video17.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video17.mp4; sourceTree = "<group>"; };
+		0BF3A31A21FE248300F70CE0 /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		0BF3A31B21FE248400F70CE0 /* video21.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video21.mp4; sourceTree = "<group>"; };
+		0BF3A31C21FE248600F70CE0 /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		0BF3A31D21FE248700F70CE0 /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		0BF3A31E21FE248800F70CE0 /* video18.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video18.mp4; sourceTree = "<group>"; };
+		0BF3A31F21FE248800F70CE0 /* video12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video12.mp4; sourceTree = "<group>"; };
+		0BF3A32021FE248900F70CE0 /* video11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video11.mp4; sourceTree = "<group>"; };
+		0BF3A33621FE35A600F70CE0 /* video22.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video22.mp4; sourceTree = "<group>"; };
+		0BF3A33821FE38C700F70CE0 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
+		69F5CB834E8657B2C1775151 /* Pods-NewsAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR.release.xcconfig"; sourceTree = "<group>"; };
 		7C34A85921FD18C2004BEA5E /* NewsAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C34A85E21FD18C2004BEA5E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		7C34A86021FD18C2004BEA5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C34A86321FD18C2004BEA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C34A86521FD18C4004BEA5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C34A86821FD18C4004BEA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C34A86A21FD18C4004BEA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B94D0A78F82FAB1E3A4820 /* Pods-NewsAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +93,87 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD7AD0CC61F85588C6FAA77 /* Pods_NewsAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BF3A2FD21FDE7E200F70CE0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0BF3A30021FDEFAE00F70CE0 /* WebsiteData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0BF3A2FE21FDE7FC00F70CE0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7C34A86221FD18C2004BEA5E /* Main.storyboard */,
+				7C34A86721FD18C4004BEA5E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0BF3A2FF21FDE81E00F70CE0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7C34A86021FD18C2004BEA5E /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0BF3A30921FE0DBE00F70CE0 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				0BF3A33821FE38C700F70CE0 /* harrypotter.mp4 */,
+				0BF3A33621FE35A600F70CE0 /* video22.mp4 */,
+				0BF3A31C21FE248600F70CE0 /* video1.mp4 */,
+				0BF3A31A21FE248300F70CE0 /* video2.mp4 */,
+				0BF3A31D21FE248700F70CE0 /* video3.mp4 */,
+				0BF3A30C21FE246E00F70CE0 /* video4.mp4 */,
+				0BF3A31221FE247500F70CE0 /* video5.mp4 */,
+				0BF3A31521FE247700F70CE0 /* video6.mp4 */,
+				0BF3A30E21FE246E00F70CE0 /* video7.mp4 */,
+				0BF3A31021FE247200F70CE0 /* video8.mp4 */,
+				0BF3A30F21FE247100F70CE0 /* video9.mp4 */,
+				0BF3A30D21FE246E00F70CE0 /* video10.mp4 */,
+				0BF3A32021FE248900F70CE0 /* video11.mp4 */,
+				0BF3A31F21FE248800F70CE0 /* video12.mp4 */,
+				0BF3A31121FE247400F70CE0 /* video13.mp4 */,
+				0BF3A31721FE247C00F70CE0 /* video14.mp4 */,
+				0BF3A31621FE247B00F70CE0 /* video15.mp4 */,
+				0BF3A31821FE247F00F70CE0 /* video16.mp4 */,
+				0BF3A31921FE248200F70CE0 /* video17.mp4 */,
+				0BF3A31E21FE248800F70CE0 /* video18.mp4 */,
+				0BF3A31321FE247600F70CE0 /* video19.mp4 */,
+				0BF3A31421FE247600F70CE0 /* video20.mp4 */,
+				0BF3A31B21FE248400F70CE0 /* video21.mp4 */,
+				0BF3A30A21FE0F6C00F70CE0 /* salad.mp4 */,
+				0BF3A2B621FD47B800F70CE0 /* test.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		721D17FDDAF55559F7B62D91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B94D0A78F82FAB1E3A4820 /* Pods-NewsAR.debug.xcconfig */,
+				69F5CB834E8657B2C1775151 /* Pods-NewsAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C34A85021FD18C2004BEA5E = {
 			isa = PBXGroup;
 			children = (
 				7C34A85B21FD18C2004BEA5E /* NewsAR */,
+				0BF3A30621FDFA3300F70CE0 /* Assets */,
 				7C34A85A21FD18C2004BEA5E /* Products */,
+				721D17FDDAF55559F7B62D91 /* Pods */,
+				E0FD9859B752079F15F97E42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,17 +188,27 @@
 		7C34A85B21FD18C2004BEA5E /* NewsAR */ = {
 			isa = PBXGroup;
 			children = (
-				0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */,
-				0BF3A2B621FD47B800F70CE0 /* test.mp4 */,
+				0BF3A30921FE0DBE00F70CE0 /* Videos */,
+				0BF3A30321FDF97F00F70CE0 /* YTPlayerView.h */,
+				0BF3A30421FDF97F00F70CE0 /* YTPlayerView.m */,
+				0BF3A2FF21FDE81E00F70CE0 /* Controller */,
+				0BF3A2FE21FDE7FC00F70CE0 /* View */,
+				0BF3A2FD21FDE7E200F70CE0 /* Model */,
+				0BF3A2FB21FDE32700F70CE0 /* art.scnassets */,
 				7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */,
-				7C34A85E21FD18C2004BEA5E /* art.scnassets */,
-				7C34A86021FD18C2004BEA5E /* ViewController.swift */,
-				7C34A86221FD18C2004BEA5E /* Main.storyboard */,
 				7C34A86521FD18C4004BEA5E /* Assets.xcassets */,
-				7C34A86721FD18C4004BEA5E /* LaunchScreen.storyboard */,
 				7C34A86A21FD18C4004BEA5E /* Info.plist */,
+				0BF3A30221FDF97E00F70CE0 /* NewsAR-Bridging-Header.h */,
 			);
 			path = NewsAR;
+			sourceTree = "<group>";
+		};
+		E0FD9859B752079F15F97E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B5701DB67595D07059B25C /* Pods_NewsAR.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -80,9 +218,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C34A86D21FD18C4004BEA5E /* Build configuration list for PBXNativeTarget "NewsAR" */;
 			buildPhases = (
+				D363081B8CDD95BF15A104F4 /* [CP] Check Pods Manifest.lock */,
 				7C34A85521FD18C2004BEA5E /* Sources */,
 				7C34A85621FD18C2004BEA5E /* Frameworks */,
 				7C34A85721FD18C2004BEA5E /* Resources */,
+				8EA80E33298B6CAF7969D8B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -105,6 +245,7 @@
 				TargetAttributes = {
 					7C34A85821FD18C2004BEA5E = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -131,16 +272,91 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C34A85F21FD18C2004BEA5E /* art.scnassets in Resources */,
 				7C34A86921FD18C4004BEA5E /* LaunchScreen.storyboard in Resources */,
-				0BF3A2B921FD47B900F70CE0 /* harrypotter.mp4 in Resources */,
+				0BF3A32521FE248900F70CE0 /* video8.mp4 in Resources */,
+				0BF3A33921FE38C700F70CE0 /* harrypotter.mp4 in Resources */,
+				0BF3A32D21FE248900F70CE0 /* video16.mp4 in Resources */,
+				0BF3A32421FE248900F70CE0 /* video9.mp4 in Resources */,
+				0BF3A33521FE248900F70CE0 /* video11.mp4 in Resources */,
+				0BF3A33421FE248900F70CE0 /* video12.mp4 in Resources */,
+				0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */,
+				0BF3A33221FE248900F70CE0 /* video3.mp4 in Resources */,
+				0BF3A32F21FE248900F70CE0 /* video2.mp4 in Resources */,
+				0BF3A32321FE248900F70CE0 /* video7.mp4 in Resources */,
+				0BF3A32B21FE248900F70CE0 /* video15.mp4 in Resources */,
+				0BF3A32921FE248900F70CE0 /* video20.mp4 in Resources */,
+				0BF3A32221FE248900F70CE0 /* video10.mp4 in Resources */,
+				0BF3A32621FE248900F70CE0 /* video13.mp4 in Resources */,
+				0BF3A33721FE35A600F70CE0 /* video22.mp4 in Resources */,
+				0BF3A32721FE248900F70CE0 /* video5.mp4 in Resources */,
 				7C34A86621FD18C4004BEA5E /* Assets.xcassets in Resources */,
 				0BF3A2B821FD47B900F70CE0 /* test.mp4 in Resources */,
+				0BF3A32821FE248900F70CE0 /* video19.mp4 in Resources */,
+				0BF3A33321FE248900F70CE0 /* video18.mp4 in Resources */,
+				0BF3A30B21FE0F6C00F70CE0 /* salad.mp4 in Resources */,
+				0BF3A32121FE248900F70CE0 /* video4.mp4 in Resources */,
+				0BF3A33121FE248900F70CE0 /* video1.mp4 in Resources */,
+				0BF3A32E21FE248900F70CE0 /* video17.mp4 in Resources */,
 				7C34A86421FD18C2004BEA5E /* Main.storyboard in Resources */,
+				0BF3A33021FE248900F70CE0 /* video21.mp4 in Resources */,
+				0BF3A32A21FE248900F70CE0 /* video6.mp4 in Resources */,
+				0BF3A32C21FE248900F70CE0 /* video14.mp4 in Resources */,
+				0BF3A30721FDFA3300F70CE0 /* Assets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EA80E33298B6CAF7969D8B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D363081B8CDD95BF15A104F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C34A85521FD18C2004BEA5E /* Sources */ = {
@@ -149,6 +365,8 @@
 			files = (
 				7C34A86121FD18C2004BEA5E /* ViewController.swift in Sources */,
 				7C34A85D21FD18C2004BEA5E /* AppDelegate.swift in Sources */,
+				0BF3A30521FDF97F00F70CE0 /* YTPlayerView.m in Sources */,
+				0BF3A30121FDEFAE00F70CE0 /* WebsiteData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,8 +510,10 @@
 		};
 		7C34A86E21FD18C4004BEA5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B94D0A78F82FAB1E3A4820 /* Pods-NewsAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3287ZJLF32;
 				INFOPLIST_FILE = NewsAR/Info.plist;
@@ -303,6 +523,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexzhang.FoodShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsAR/NewsAR-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,8 +532,10 @@
 		};
 		7C34A86F21FD18C4004BEA5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F5CB834E8657B2C1775151 /* Pods-NewsAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3287ZJLF32;
 				INFOPLIST_FILE = NewsAR/Info.plist;
@@ -321,6 +545,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.alexzhang.FoodShare;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "NewsAR/NewsAR-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -19,7 +19,7 @@ class Cacher:
 
     def getCache(self):
 
-        if self.previousCache != None and (time.time() - self.lastUpdated < 30 * 60 * 100): 
+        if self.previousCache != None and (time.time() - self.lastUpdated < 3600): 
             return self.previousCache
         else:
             self.lastUpdated = int(time.time())
@@ -28,9 +28,7 @@ class Cacher:
             if isUpdated:
                 self.previousCache["data"] = updatedData
                 self.previousCache["_id"] = self.lastUpdated
-                return self.previousCache
-            else:
-                return None
+        return self.previousCache
 
 if __name__ == "__main__":
     print(Cacher().getCache())

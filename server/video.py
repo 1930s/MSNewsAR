@@ -34,17 +34,17 @@ def getVideoFromAzure(title):
     try:
         entity_data = entity_client.entities.search(query=title)
 
-        if entity_data.entities:
+        if entity_data.entities is not None:
             main_entities = [entity for entity in entity_data.entities.value
                              if entity.entity_presentation_info.entity_scenario == "DominantEntity"]
-            if main_entities:
+            if len(main_entities) != 0:
                 video_result = video_client.videos.search(query=' '.join(str(ent) for ent in main_entities), safe_search=SafeSearch.strict)
-                if video_result.value:
+                if video_result is not None and len(video_result.value) != 0:
                     soup = BeautifulSoup(video_result.value[0].embed_html, 'html.parser')
                     return soup.find("iframe")["src"]
         else:
             video_result = video_client.videos.search(query=title[:45], safe_search=SafeSearch.strict)
-            if video_result.value:
+            if video_result is not None and len(video_result.value) != 0:
                 soup = BeautifulSoup(video_result.value[0].embed_html, 'html.parser')
                 return soup.find("iframe")["src"]
 

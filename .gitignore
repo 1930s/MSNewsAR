@@ -77,3 +77,5 @@ server/__pycache__
 server/secrets/keys.json
 
 server/venv/
+
+NewsAR/Videos/*.mp4

@@ -65,6 +65,8 @@ def getVideo(article, title):
         return getVideoFromAzure(title)
 
 def checkDifference(newC, prevC):
+    if newC == None or prevC == None:
+        return True
     if len(newC) != len(prevC):
         return True
     else:

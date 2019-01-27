@@ -4,12 +4,16 @@
         "sha-256": {
             "imgHREF": "/some/path",
             "videoHREF": "/some/other/path",
-            "tag": ""
+            "title": "article-title",
+            "articleHREF": "/article/here",
+            "imageSize": "xl/l/m"
         },
         "another-sha-256": {
             "imgHREF": "/some/path",
             "videoHREF": "/some/other/path",
-            "tag": ""
+            "title": "article-title",
+            "articleHREF": "/article/here",
+            "imageSize": "xl/l/m"
         }
     }
 }

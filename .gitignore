@@ -75,3 +75,5 @@ fastlane/test_output
 server/__pycache__
 
 server/secrets/keys.json
+
+server/venv/

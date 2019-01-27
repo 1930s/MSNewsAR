@@ -20,7 +20,7 @@ class Parser:
         self.getLImages(newCache)
         self.getMImages(newCache)
         # print(newCache)
-        return True, newCache
+        return checkDifference(newCache, previousCache["data"]), newCache
 
     def getXlImage(self, newCache):
         xlDiv = self.soup.find("div", {"class": "mnc-lg-panel"})
@@ -29,7 +29,8 @@ class Parser:
         article = xlDiv.a["href"]
         hashed = hash_string(title)
         vid = getVideo(article, title)
-        newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "xl", "articleHREF": article, "videoHREF":  vid}
+        if vid != None:
+            newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "xl", "articleHREF": article, "videoHREF":  vid}
 
     def getLImages(self, newCache):
         lDivs = self.soup.find_all("div", {"class": "mnc-md-panel"})
@@ -39,7 +40,8 @@ class Parser:
             article = div.a["href"]
             hashed = hash_string(title)
             vid = getVideo(article, title)
-            newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "l", "articleHREF": article, "videoHREF":  vid}
+            if vid != None:
+                newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "l", "articleHREF": article, "videoHREF":  vid}
 
     def getMImages(self, newCache):
         mDivs = self.soup.find_all("a", {"class": "m-preview-image"})
@@ -49,7 +51,8 @@ class Parser:
             article = div["href"]
             hashed = hash_string(title)
             vid = getVideo(article, title)
-            newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "m", "articleHREF": article, "videoHREF":  vid}
+            if vid != None:
+                newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "m", "articleHREF": article, "videoHREF":  vid}
 
 def hash_string(string):
     return hashlib.sha256(string.encode('utf-8')).hexdigest()
@@ -61,6 +64,14 @@ def getVideo(article, title):
     else:
         return getVideoFromAzure(title)
 
+def checkDifference(newC, prevC):
+    if len(newC) != len(prevC):
+        return True
+    else:
+        for key in newC:
+            if not key in prevC:
+                return True
+    return False
 
 if __name__ == "__main__":
     Parser().getParsedInfo(dict())

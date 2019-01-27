@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 import hashlib
+from video import *
 
 HEADERS = {
     'User-Agent': 'My User Agent 1.0',
@@ -27,7 +28,8 @@ class Parser:
         image = xlDiv.img["src"]
         article = xlDiv.a["href"]
         hashed = hash_string(title)
-        newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "xl", "articleHREF": article}
+        vid = getVideo(article, title)
+        newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "xl", "articleHREF": article, "videoHREF":  vid}
 
     def getLImages(self, newCache):
         lDivs = self.soup.find_all("div", {"class": "mnc-md-panel"})
@@ -36,7 +38,8 @@ class Parser:
             image = div.img["src"]
             article = div.a["href"]
             hashed = hash_string(title)
-            newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "l", "articleHREF": article}
+            vid = getVideo(article, title)
+            newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "l", "articleHREF": article, "videoHREF":  vid}
 
     def getMImages(self, newCache):
         mDivs = self.soup.find_all("a", {"class": "m-preview-image"})
@@ -45,10 +48,18 @@ class Parser:
             image = div.img["src"]
             article = div["href"]
             hashed = hash_string(title)
-            newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "m", "articleHREF": article}
+            vid = getVideo(article, title)
+            newCache[hashed] = {"title": title, "imgHREF": image, "imageSize": "m", "articleHREF": article, "videoHREF":  vid}
 
 def hash_string(string):
     return hashlib.sha256(string.encode('utf-8')).hexdigest()
+
+def getVideo(article, title):
+    vidFromArticle = getVideoFromArticle(article)
+    if vidFromArticle != None:
+        return vidFromArticle
+    else:
+        return getVideoFromAzure(title)
 
 
 if __name__ == "__main__":

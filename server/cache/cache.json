@@ -1,0 +1,13 @@
+{
+    "_id": 1548543663,
+    "data": {
+        "sha-256": {
+            "imgHREF": "/some/path",
+            "videoHREF": "/some/other/path"
+        },
+        "another-sha-256": {
+            "imgHREF": "/some/path",
+            "videoHREF": "/some/other/path"
+        }
+    }
+}

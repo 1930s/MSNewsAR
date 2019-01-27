@@ -1,19 +1,103 @@
 {
-    "_id": 1548543663,
+    "_id": 1548603351,
     "data": {
-        "sha-256": {
-            "imgHREF": "/some/path",
-            "videoHREF": "/some/other/path",
-            "title": "article-title",
-            "articleHREF": "/article/here",
-            "imageSize": "xl/l/m"
+        "0c3bd6d024671598848cfa3ef656ec59afb48c094ee1b65512a8b0e236ed1429": {
+            "articleHREF": "https://news.microsoft.com/en-ca/2018/10/19/quebec-government-leading-with-its-cloud-first-strategy/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/10/CGf_CMIWwAAjn2B_746x399_2.png",
+            "title": "Quebec government leading with its cloud first strategy",
+            "videoHREF": "https://www.youtube.com/embed/Gl8XBSHETk8?autoplay=1"
         },
-        "another-sha-256": {
-            "imgHREF": "/some/path",
-            "videoHREF": "/some/other/path",
-            "title": "article-title",
-            "articleHREF": "/article/here",
-            "imageSize": "xl/l/m"
+        "0d5fa48a8222d53287dfb7e51ed954d020c03ba0dbe85eebc5c53ce6205768e8": {
+            "articleHREF": "https://www.glassdoor.com/blog/microsoft-bptw19/",
+            "imageSize": "l",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/12/Number1Collagefinal-1024x779.png",
+            "title": "Glassdoor names Microsoft best place to work in Canada",
+            "videoHREF": "http://www.youtube.com/embed/eORJq65PS6s?autoplay=1"
+        },
+        "1307527dcc18ce1f1a3b1bbe7dc62fe5affc424c83af3fe8f0b894e06eebf199": {
+            "articleHREF": "https://news.microsoft.com/innovation-stories/project-torino-code-jumper/?utm_source=stories-hp&utm_campaign=1196",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2019/01/Capture-960x640.jpg",
+            "title": "With Code Jumper, experts look to jumpstart computer science interest for kids who are blind",
+            "videoHREF": "https://www.youtube-nocookie.com/embed/wb59Pr7Bagg?version=3&rel=0&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        },
+        "3ba8324ea2fd8265ef433eed3ae450b5268decd10ec65c9fb13b21ae62beb2c6": {
+            "articleHREF": "https://news.microsoft.com/en-ca/2019/01/23/announcing-kevtalks/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2019/01/Capture.jpg",
+            "title": "ANNOUNCING KEV TALKS",
+            "videoHREF": "https://www.youtube.com/embed/p6h-NScmkdI?autoplay=1"
+        },
+        "41b7431d057698c580b32d923b371e3e480f2b6c6a06ad12ef64fb021ed6f716": {
+            "articleHREF": "https://news.microsoft.com/features/how-gamers-with-disabilities-helped-design-the-new-xbox-adaptive-controllers-elegantly-accessible-packaging/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/07/Open-box-960x640.jpg",
+            "title": "How gamers with disabilities helped design the new Xbox Adaptive Controller’s elegantly accessible packaging",
+            "videoHREF": "https://www.youtube-nocookie.com/embed/3zgXda67cEo?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        },
+        "4a8efc535fc0f2641c292a87595527a600421cbc002e83a381585e80699ccf95": {
+            "articleHREF": "https://news.microsoft.com/en-ca/2018/10/05/celebrating-smbs-and-startups-with-the-great-canadian-innovators-yearbook/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/10/Slide2_2.jpg",
+            "title": "Celebrating SMBs And Startups With The Great Canadian Innovators Yearbook.",
+            "videoHREF": "https://www.youtube.com/embed/Gtn5NKInqb4?autoplay=1"
+        },
+        "50b873c89f53fad94cc27d1c36399dacd4fcd4bde891b0b7a1d73641ef92d3dc": {
+            "articleHREF": "https://news.microsoft.com/en-ca/2018/09/28/microsoft-ignite-2018-round-up-all-the-key-announcements-and-news/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/09/ignite-5baea33035473-960x640.jpg",
+            "title": "Microsoft Ignite 2018 round-up: all the key announcements and news",
+            "videoHREF": "https://www.youtube.com/embed/1XEVTJUwe6I?autoplay=1"
+        },
+        "9c6ca08c3b07f7e261346e5b7c634cca6dd599dded63c6ffef86162c7bf528aa": {
+            "articleHREF": "https://blogs.windows.com/devices/2018/07/09/meet-surface-go-starting-at-399-msrp-its-the-smallest-and-most-affordable-surface-yet/#YOLeFGGolQdARXCF.97#new_tab",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/07/Hero-Product-Render-960x640.jpg",
+            "title": "Meet Surface Go, it’s our smallest, lightest, and most affordable Surface yet",
+            "videoHREF": "https://www.youtube-nocookie.com/embed/krRRskzHWFE?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        },
+        "9fff61c3021ac8e8de503ebc1a7856975f279055c87fdf2ad7fb9b19dde43fb8": {
+            "articleHREF": "https://blogs.microsoft.com/on-the-issues/2018/09/24/using-ai-to-help-save-lives/#new_tab",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/09/Captu-960x640.jpg",
+            "title": "Microsoft commits $40M over 5 years to AI for Humanitarian Action initiative",
+            "videoHREF": "https://www.youtube-nocookie.com/embed/7VqH9mVSWlg?version=3&rel=1&fs=1&autohide=2&showsearch=0&showinfo=1&iv_load_policy=1&wmode=transparent"
+        },
+        "ca261d9ed820762d00f14fa42172eb70a39ff4664893bdb71c0cc4039cdbf04f": {
+            "articleHREF": "https://news.microsoft.com/en-ca/2018/10/31/prepare-for-the-jobs-of-tomorrow-with-microsoft-tech-summit/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/10/5bda0f0d9450e-5bda0f0d94511MS_2146_TechSummit_TextVersions_Generic20EN_746x488-2.png.png",
+            "title": "Prepare for the Jobs of Tomorrow with Microsoft Tech Summit",
+            "videoHREF": "https://www.youtube.com/embed/ePWs7Rxyo0A?autoplay=1"
+        },
+        "cc0656f89169c727711ad7b7833c6cfcb75cbc4dec77c93a686294ddc4532124": {
+            "articleHREF": "https://blogs.microsoft.com/on-the-issues/2018/12/11/microsoft-and-national-geographic-society-announce-ai-for-earth-innovation-grantees/",
+            "imageSize": "xl",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/12/Ai4earth-1024x683.jpg",
+            "title": "Microsoft and National Geographic Society announce AI for Earth Innovation grantees",
+            "videoHREF": "https://www.youtube.com/embed/7FhPKJs5TQ0?autoplay=1"
+        },
+        "d342154632f80169923d081a2be55a4c2b280749484434a83f3969fde95036cf": {
+            "articleHREF": "https://news.microsoft.com/en-ca/2018/11/06/using-ai-and-the-cloud-to-help-save-the-planet/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/11/microsoft_ai_for_earth_scr_960x484-960x484.png",
+            "title": "USING AI AND THE CLOUD TO HELP SAVE THE PLANET",
+            "videoHREF": "https://www.youtube.com/embed/E9Qj5WbFYY4?autoplay=1"
+        },
+        "ec2d39eb9d26ee4ed173f7aa766e3dd603f810be619fd3bea67b6757fd27ac92": {
+            "articleHREF": "https://news.microsoft.com/en-ca/2018/10/18/discover-07-ways-to-work-smarter-in-the-cloud/",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/10/office.png",
+            "title": "Discover 07 Ways To Work Smarter In The Cloud",
+            "videoHREF": "https://www.youtube.com/embed/qvtHAmcnRT0?autoplay=1"
+        },
+        "ecb9005b8881178de290f518ee04717b8a14700339ee58a742e02d5764128a4a": {
+            "articleHREF": "https://news.microsoft.com/en-ca/features/surface-go-empowers-the-modern-workplace/#new_tab",
+            "imageSize": "m",
+            "imgHREF": "https://3er1viui9wo30pkxh1v2nh4w-wpengine.netdna-ssl.com/wp-content/uploads/prod/sites/67/2018/08/SUR18_Go_Contextual_FL_032_RGB-5b71a1d7de352-960x640.png",
+            "title": "Surface Go Empowers The Modern Workplace",
+            "videoHREF": "http://www.youtube.com/embed/hHdO7_71MzI?autoplay=1"
         }
     }
 }

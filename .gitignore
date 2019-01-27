@@ -73,3 +73,5 @@ fastlane/test_output
 .vscode
 
 server/__pycache__
+
+secrets/keys.json

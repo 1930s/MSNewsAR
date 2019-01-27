@@ -74,4 +74,4 @@ fastlane/test_output
 
 server/__pycache__
 
-secrets/keys.json
+server/secrets/keys.json

@@ -9,25 +9,29 @@
 /* Begin PBXBuildFile section */
 		0BF3A2B821FD47B900F70CE0 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2B621FD47B800F70CE0 /* test.mp4 */; };
 		0BF3A2B921FD47B900F70CE0 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */; };
+		0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2FB21FDE32700F70CE0 /* art.scnassets */; };
 		7C34A85D21FD18C2004BEA5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */; };
-		7C34A85F21FD18C2004BEA5E /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A85E21FD18C2004BEA5E /* art.scnassets */; };
 		7C34A86121FD18C2004BEA5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34A86021FD18C2004BEA5E /* ViewController.swift */; };
 		7C34A86421FD18C2004BEA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A86221FD18C2004BEA5E /* Main.storyboard */; };
 		7C34A86621FD18C4004BEA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A86521FD18C4004BEA5E /* Assets.xcassets */; };
 		7C34A86921FD18C4004BEA5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A86721FD18C4004BEA5E /* LaunchScreen.storyboard */; };
+		7DD7AD0CC61F85588C6FAA77 /* Pods_NewsAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04B5701DB67595D07059B25C /* Pods_NewsAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04B5701DB67595D07059B25C /* Pods_NewsAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BF3A2B621FD47B800F70CE0 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = harrypotter.mp4; sourceTree = "<group>"; };
+		0BF3A2FB21FDE32700F70CE0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		69F5CB834E8657B2C1775151 /* Pods-NewsAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR.release.xcconfig"; sourceTree = "<group>"; };
 		7C34A85921FD18C2004BEA5E /* NewsAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7C34A85E21FD18C2004BEA5E /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		7C34A86021FD18C2004BEA5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7C34A86321FD18C2004BEA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7C34A86521FD18C4004BEA5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C34A86821FD18C4004BEA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C34A86A21FD18C4004BEA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85B94D0A78F82FAB1E3A4820 /* Pods-NewsAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DD7AD0CC61F85588C6FAA77 /* Pods_NewsAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		721D17FDDAF55559F7B62D91 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85B94D0A78F82FAB1E3A4820 /* Pods-NewsAR.debug.xcconfig */,
+				69F5CB834E8657B2C1775151 /* Pods-NewsAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		7C34A85021FD18C2004BEA5E = {
 			isa = PBXGroup;
 			children = (
 				7C34A85B21FD18C2004BEA5E /* NewsAR */,
 				7C34A85A21FD18C2004BEA5E /* Products */,
+				721D17FDDAF55559F7B62D91 /* Pods */,
+				E0FD9859B752079F15F97E42 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,8 +78,8 @@
 			children = (
 				0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */,
 				0BF3A2B621FD47B800F70CE0 /* test.mp4 */,
+				0BF3A2FB21FDE32700F70CE0 /* art.scnassets */,
 				7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */,
-				7C34A85E21FD18C2004BEA5E /* art.scnassets */,
 				7C34A86021FD18C2004BEA5E /* ViewController.swift */,
 				7C34A86221FD18C2004BEA5E /* Main.storyboard */,
 				7C34A86521FD18C4004BEA5E /* Assets.xcassets */,
@@ -73,6 +89,14 @@
 			path = NewsAR;
 			sourceTree = "<group>";
 		};
+		E0FD9859B752079F15F97E42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04B5701DB67595D07059B25C /* Pods_NewsAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -80,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C34A86D21FD18C4004BEA5E /* Build configuration list for PBXNativeTarget "NewsAR" */;
 			buildPhases = (
+				D363081B8CDD95BF15A104F4 /* [CP] Check Pods Manifest.lock */,
 				7C34A85521FD18C2004BEA5E /* Sources */,
 				7C34A85621FD18C2004BEA5E /* Frameworks */,
 				7C34A85721FD18C2004BEA5E /* Resources */,
+				8EA80E33298B6CAF7969D8B1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -131,8 +157,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C34A85F21FD18C2004BEA5E /* art.scnassets in Resources */,
 				7C34A86921FD18C4004BEA5E /* LaunchScreen.storyboard in Resources */,
+				0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */,
 				0BF3A2B921FD47B900F70CE0 /* harrypotter.mp4 in Resources */,
 				7C34A86621FD18C4004BEA5E /* Assets.xcassets in Resources */,
 				0BF3A2B821FD47B900F70CE0 /* test.mp4 in Resources */,
@@ -141,6 +167,57 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8EA80E33298B6CAF7969D8B1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/youtube-ios-player-helper/youtube_ios_player_helper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/youtube_ios_player_helper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NewsAR/Pods-NewsAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D363081B8CDD95BF15A104F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsAR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C34A85521FD18C2004BEA5E /* Sources */ = {
@@ -292,6 +369,7 @@
 		};
 		7C34A86E21FD18C4004BEA5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85B94D0A78F82FAB1E3A4820 /* Pods-NewsAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -310,6 +388,7 @@
 		};
 		7C34A86F21FD18C4004BEA5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F5CB834E8657B2C1775151 /* Pods-NewsAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

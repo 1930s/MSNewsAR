@@ -68,6 +68,8 @@ fastlane/screenshots/**/*.png
 fastlane/test_output
 
 
-.pyc 
+*.pyc 
 
 .vscode
+
+server/__pycache__

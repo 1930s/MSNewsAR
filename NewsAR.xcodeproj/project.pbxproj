@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0BF3A2B821FD47B900F70CE0 /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2B621FD47B800F70CE0 /* test.mp4 */; };
+<<<<<<< HEAD
 		0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2FB21FDE32700F70CE0 /* art.scnassets */; };
 		0BF3A30121FDEFAE00F70CE0 /* WebsiteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3A30021FDEFAE00F70CE0 /* WebsiteData.swift */; };
 		0BF3A30521FDF97F00F70CE0 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3A30421FDF97F00F70CE0 /* YTPlayerView.m */; };
@@ -36,6 +37,10 @@
 		0BF3A33521FE248900F70CE0 /* video11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A32021FE248900F70CE0 /* video11.mp4 */; };
 		0BF3A33721FE35A600F70CE0 /* video22.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A33621FE35A600F70CE0 /* video22.mp4 */; };
 		0BF3A33921FE38C700F70CE0 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A33821FE38C700F70CE0 /* harrypotter.mp4 */; };
+=======
+		0BF3A2B921FD47B900F70CE0 /* harrypotter.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */; };
+		0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2FB21FDE32700F70CE0 /* art.scnassets */; };
+>>>>>>> 56bd39747c7dbb505f41c96f5790e0324e990af4
 		7C34A85D21FD18C2004BEA5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */; };
 		7C34A86121FD18C2004BEA5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C34A86021FD18C2004BEA5E /* ViewController.swift */; };
 		7C34A86421FD18C2004BEA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C34A86221FD18C2004BEA5E /* Main.storyboard */; };
@@ -196,6 +201,12 @@
 				0BF3A2FD21FDE7E200F70CE0 /* Model */,
 				0BF3A2FB21FDE32700F70CE0 /* art.scnassets */,
 				7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */,
+				0BF3A2B721FD47B800F70CE0 /* harrypotter.mp4 */,
+				0BF3A2B621FD47B800F70CE0 /* test.mp4 */,
+				0BF3A2FB21FDE32700F70CE0 /* art.scnassets */,
+				7C34A85C21FD18C2004BEA5E /* AppDelegate.swift */,
+				7C34A86021FD18C2004BEA5E /* ViewController.swift */,
+				7C34A86221FD18C2004BEA5E /* Main.storyboard */,
 				7C34A86521FD18C4004BEA5E /* Assets.xcassets */,
 				7C34A86A21FD18C4004BEA5E /* Info.plist */,
 				0BF3A30221FDF97E00F70CE0 /* NewsAR-Bridging-Header.h */,
@@ -297,6 +308,10 @@
 				0BF3A32121FE248900F70CE0 /* video4.mp4 in Resources */,
 				0BF3A33121FE248900F70CE0 /* video1.mp4 in Resources */,
 				0BF3A32E21FE248900F70CE0 /* video17.mp4 in Resources */,
+				0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */,
+				0BF3A2B921FD47B900F70CE0 /* harrypotter.mp4 in Resources */,
+				7C34A86621FD18C4004BEA5E /* Assets.xcassets in Resources */,
+				0BF3A2B821FD47B900F70CE0 /* test.mp4 in Resources */,
 				7C34A86421FD18C2004BEA5E /* Main.storyboard in Resources */,
 				0BF3A33021FE248900F70CE0 /* video21.mp4 in Resources */,
 				0BF3A32A21FE248900F70CE0 /* video6.mp4 in Resources */,

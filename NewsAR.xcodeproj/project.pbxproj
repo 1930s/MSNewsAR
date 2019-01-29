@@ -11,7 +11,6 @@
 		0BF3A2B921FD47B900F70CE0 /* (null) in Resources */ = {isa = PBXBuildFile; };
 		0BF3A2FC21FDE32700F70CE0 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A2FB21FDE32700F70CE0 /* art.scnassets */; };
 		0BF3A30121FDEFAE00F70CE0 /* WebsiteData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3A30021FDEFAE00F70CE0 /* WebsiteData.swift */; };
-		0BF3A30521FDF97F00F70CE0 /* YTPlayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BF3A30421FDF97F00F70CE0 /* YTPlayerView.m */; };
 		0BF3A30B21FE0F6C00F70CE0 /* salad.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30A21FE0F6C00F70CE0 /* salad.mp4 */; };
 		0BF3A32121FE248900F70CE0 /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30C21FE246E00F70CE0 /* video4.mp4 */; };
 		0BF3A32221FE248900F70CE0 /* video10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 0BF3A30D21FE246E00F70CE0 /* video10.mp4 */; };
@@ -48,8 +47,6 @@
 		0BF3A2FB21FDE32700F70CE0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		0BF3A30021FDEFAE00F70CE0 /* WebsiteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteData.swift; sourceTree = "<group>"; };
 		0BF3A30221FDF97E00F70CE0 /* NewsAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsAR-Bridging-Header.h"; sourceTree = "<group>"; };
-		0BF3A30321FDF97F00F70CE0 /* YTPlayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTPlayerView.h; sourceTree = "<group>"; };
-		0BF3A30421FDF97F00F70CE0 /* YTPlayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTPlayerView.m; sourceTree = "<group>"; };
 		0BF3A30A21FE0F6C00F70CE0 /* salad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = salad.mp4; sourceTree = "<group>"; };
 		0BF3A30C21FE246E00F70CE0 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
 		0BF3A30D21FE246E00F70CE0 /* video10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video10.mp4; sourceTree = "<group>"; };
@@ -169,8 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				0BF3A30921FE0DBE00F70CE0 /* Videos */,
-				0BF3A30321FDF97F00F70CE0 /* YTPlayerView.h */,
-				0BF3A30421FDF97F00F70CE0 /* YTPlayerView.m */,
 				0BF3A2FF21FDE81E00F70CE0 /* Controller */,
 				0BF3A2FE21FDE7FC00F70CE0 /* View */,
 				0BF3A2FD21FDE7E200F70CE0 /* Model */,
@@ -289,7 +284,6 @@
 			files = (
 				7C34A86121FD18C2004BEA5E /* ViewController.swift in Sources */,
 				7C34A85D21FD18C2004BEA5E /* AppDelegate.swift in Sources */,
-				0BF3A30521FDF97F00F70CE0 /* YTPlayerView.m in Sources */,
 				0BF3A30121FDEFAE00F70CE0 /* WebsiteData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

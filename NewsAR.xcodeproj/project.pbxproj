@@ -46,7 +46,6 @@
 		0BF3A2B621FD47B800F70CE0 /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
 		0BF3A2FB21FDE32700F70CE0 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		0BF3A30021FDEFAE00F70CE0 /* WebsiteData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteData.swift; sourceTree = "<group>"; };
-		0BF3A30221FDF97E00F70CE0 /* NewsAR-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewsAR-Bridging-Header.h"; sourceTree = "<group>"; };
 		0BF3A30A21FE0F6C00F70CE0 /* salad.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = salad.mp4; sourceTree = "<group>"; };
 		0BF3A30C21FE246E00F70CE0 /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
 		0BF3A30D21FE246E00F70CE0 /* video10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video10.mp4; sourceTree = "<group>"; };
@@ -175,7 +174,6 @@
 				7C34A86021FD18C2004BEA5E /* ViewController.swift */,
 				7C34A86521FD18C4004BEA5E /* Assets.xcassets */,
 				7C34A86A21FD18C4004BEA5E /* Info.plist */,
-				0BF3A30221FDF97E00F70CE0 /* NewsAR-Bridging-Header.h */,
 			);
 			path = NewsAR;
 			sourceTree = "<group>";

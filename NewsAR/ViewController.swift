@@ -118,7 +118,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         
         var planeNode = createVideoNode(node: node, imageAnchor: imageAnchor, filename: filename)
         
-        if filename == "harrypotter" {
+        if filename == "harrypotter.mp4" {
             displayWebViewDirected(on: planeNode, xOffset: imageAnchor.referenceImage.physicalSize.width, urlStr: "https://en.wikipedia.org/wiki/Harry_Potter", direction: "right")
         } else {
             displayWebViewDirected(on: planeNode, xOffset: imageAnchor.referenceImage.physicalSize.width, urlStr: "https://www.gimmesomeoven.com/everyday-salad-recipe/", direction: "left")
